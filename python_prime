@@ -1,0 +1,13 @@
+#calculates all the prime numbers less or equal to a given maximum integer.
+print ('A list of all prime numbers less than or equal to:')
+max = int(input())
+primeList=[]
+for x in range(2, max +1):
+    isPrime = True
+    for y in range (2,x):
+        if x%y == 0:
+            isPrime = False
+            break
+    if isPrime:
+        primeList.append(x)
+print(primeList)
