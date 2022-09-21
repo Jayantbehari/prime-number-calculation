@@ -6,7 +6,7 @@
 # If you type: 10 the program will return [2,3,5,7] 
 # If you type: 1000 the program will return all the prime numbers less than 1000 [2,3,.....991,997]
 # How does this program performs the prime number calculation?
-# it reads your maximum integer iput and stores this in max
+# it reads your maximum integer input and stores this in max
 # max = int(input())
 # Next it creates an empty list.
 # primeList=[]
@@ -22,7 +22,7 @@
 #         if x%y == 0:
 #            isPrime = False
 #            break
-# The 
+#  
 # If the boolean isPrime stayes true for all the divisions, it appends this value x to the list primeList because this x is a prime number.
 #     if isPrime:
 #         primeList.append(x)
